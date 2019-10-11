@@ -58,7 +58,7 @@ function animatePress(currentcolor){
   },100);
 }
 function playSound(Color){
-  var audio=new Audio("sounds/"+ Color +".mp3");
+  var audio=new Audio(Color +".mp3");
   audio.play();
 }
 
